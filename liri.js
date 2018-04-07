@@ -35,8 +35,11 @@ inquirer.prompt([
             var time = response[i].created_at;
             var tweet = repsonse[i].text;
         console.log("Tweet: "+tweet+ "Time: "+time+ "Tweeted by: "+user_id);
-        } else {
-            console.log (error);
+         }
         }
-    }
-      });
+    });    
+    //     } else {
+    //         console.log (error);
+    //     }
+    // }
+    //   });
